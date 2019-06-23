@@ -5,7 +5,7 @@
 class Esculpper : public QWidget{
   Q_OBJECT
 private:
-int nx=1,ny=1,nz=1,pc=0,OperationVBSE=0,lx=1,ly=1,lz=1,plan=0;
+int nx=1,ny=1,nz=1,pc=0,OperationVBSE=0,lx=1,ly=1,lz=1,plan=0,planCoordenada=0;
 float r=0,g=0,b=0,t=0,raio=1,rx=1,ry=1,rz=1;
 float hx,hy,hz;
 Sculptor *s;
@@ -29,9 +29,16 @@ public:
   void setPutCut(int pc);
   void setOperation(int op);
   void setBox(int lx,int ly,int lz);
+  void setPlanoCoordenada(int planoCoordenada);
   void setSculptor(Sculptor &s);
   void cortar(int x,int y,int z);
   void Inserir(int x,int y,int z);
+  void SetRed(int r);
+  void SetGreen(int g);
+  void SetBlue(int b);
+  void SetTransparencia(int t);
+  void SalvarOFF(QString s);
+  void SalvarVECT(QString s);
   Sculptor getSculptor();
   void setColor(float r,float g,float b,float a);
 signals:

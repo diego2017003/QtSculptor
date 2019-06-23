@@ -158,7 +158,7 @@ void Sculptor::cutSphere(int xcentro, int ycentro, int zcentro, float raio){
         for(int i=0;i<this->nx;i++){
             for(int j=0;j<this->ny;j++){
                 for(int k=0;k<this->nz;k++){
-                    if(sqrt((i-xcentro)*(i-xcentro)+(j-ycentro)*(j-ycentro)+(k-zcentro)*(k-zcentro))<=raio*raio){
+                    if(((i-xcentro)*(i-xcentro)+(j-ycentro)*(j-ycentro)+(k-zcentro)*(k-zcentro))<=raio*raio){
                         cutVoxel(i,j,k);
                     }
                 }
