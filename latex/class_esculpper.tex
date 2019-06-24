@@ -1,0 +1,281 @@
+\hypertarget{class_esculpper}{}\section{Esculpper Class Reference}
+\label{class_esculpper}\index{Esculpper@{Esculpper}}
+
+
+{\ttfamily \#include $<$esculpper.\+h$>$}
+
+Inheritance diagram for Esculpper\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_esculpper}
+\end{center}
+\end{figure}
+\subsection*{Signals}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_esculpper_aa46e681d674c7b40639dc44637ed2948}{posx}} (int)
+\item 
+void \mbox{\hyperlink{class_esculpper_ac7e83d14fbe340f45f8984419b486c6b}{posy}} (int)
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_esculpper_a89d2a33b5b2cebd4b06a938fed3c7d3b}{Esculpper}} (Q\+Widget $\ast$parent=nullptr)
+\item 
+void \mbox{\hyperlink{class_esculpper_a857692bdb93c3fdbb4ace4d2f90d802b}{paint\+Event}} (Q\+Paint\+Event $\ast$e)
+\item 
+void \mbox{\hyperlink{class_esculpper_a8c0c963246cb180fff88fdcbf0423feb}{mouse\+Move\+Event}} (Q\+Mouse\+Event $\ast$e)
+\item 
+void \mbox{\hyperlink{class_esculpper_abac370c50c860249867ded72f7b662db}{mouse\+Double\+Click\+Event}} (Q\+Mouse\+Event $\ast$e)
+\item 
+void \mbox{\hyperlink{class_esculpper_ad0d057e7bde9519e973d54fabe306f99}{mouse\+Release\+Event}} (Q\+Mouse\+Event $\ast$e)
+\item 
+void \mbox{\hyperlink{class_esculpper_adae0aea7485c46aae427c3303db1bad4}{mouse\+Press\+Event}} (Q\+Mouse\+Event $\ast$e)
+\item 
+void \mbox{\hyperlink{class_esculpper_a9a6e875cc60b1712b468ae500d95abd0}{set\+Nx}} (int nx)
+\item 
+void \mbox{\hyperlink{class_esculpper_ab26afe21f9a86beca089a9ba2feda6fc}{set\+Ny}} (int ny)
+\item 
+void \mbox{\hyperlink{class_esculpper_a85deaa290e0a2b9e0e143c235252b1de}{set\+Nz}} (int nz)
+\item 
+void \mbox{\hyperlink{class_esculpper_a2cbc4c7888ad77bfbe4977121158cd4d}{set\+Rx}} (float rx)
+\item 
+void \mbox{\hyperlink{class_esculpper_a1b2e3090d8ff1affd19d2b3935c645d2}{set\+Ry}} (float ry)
+\item 
+void \mbox{\hyperlink{class_esculpper_a19c5064c0d1f5b22b3650fba22b9ed3a}{set\+Rz}} (float rz)
+\item 
+void \mbox{\hyperlink{class_esculpper_ac64b70c52eecda057ecb1ae1278ae110}{set\+Raio}} (float r)
+\item 
+void \mbox{\hyperlink{class_esculpper_a8590fa3cbbbf52cd04ca44b2b06ed0bf}{set\+Plano}} (int plan)
+\item 
+void \mbox{\hyperlink{class_esculpper_a7ba4d36fc926e31737011d344385492c}{set\+Put\+Cut}} (int pc)
+\item 
+void \mbox{\hyperlink{class_esculpper_a7e83952f6516f052cb55eb271e31fa65}{set\+Operation}} (int op)
+\item 
+void \mbox{\hyperlink{class_esculpper_aef40ff24714c542d056c772f2da6a06d}{set\+Box}} (int lx, int ly, int lz)
+\item 
+void \mbox{\hyperlink{class_esculpper_a5d3a9022e6a7e238d7c0d2cc4a3f7ab5}{set\+Plano\+Coordenada}} (int plano\+Coordenada)
+\item 
+void \mbox{\hyperlink{class_esculpper_a60d29da81456257d8956aa8a49cb65a7}{set\+Sculptor}} (\mbox{\hyperlink{class_sculptor}{Sculptor}} \&s)
+\item 
+void \mbox{\hyperlink{class_esculpper_ae79b3da4d0b21385d56ca89b4584e802}{cortar}} (int x, int y, int z)
+\item 
+void \mbox{\hyperlink{class_esculpper_a22f68de687305ed2e9917db6c6959cf4}{Inserir}} (int x, int y, int z)
+\item 
+void \mbox{\hyperlink{class_esculpper_a839c01344d7da0202eb8cbe81b0e8bfc}{Set\+Red}} (int r)
+\item 
+void \mbox{\hyperlink{class_esculpper_a94760e2f4d66bd1001a66cf40fcbfe34}{Set\+Green}} (int g)
+\item 
+void \mbox{\hyperlink{class_esculpper_a7eef082bf1ad9272391b5730b04e3614}{Set\+Blue}} (int b)
+\item 
+void \mbox{\hyperlink{class_esculpper_a61f1f97e68ffae1aa19b61c18231dce4}{Set\+Transparencia}} (int t)
+\item 
+void \mbox{\hyperlink{class_esculpper_a1ff4b2f6369e31634e93bd781c8312ce}{Salvar\+O\+FF}} (Q\+String s)
+\item 
+void \mbox{\hyperlink{class_esculpper_a104883007089b1349d0a74537869ea79}{Salvar\+V\+E\+CT}} (Q\+String s)
+\item 
+\mbox{\hyperlink{class_sculptor}{Sculptor}} \mbox{\hyperlink{class_esculpper_aa28642864781d77f35236e6504ab3ce0}{get\+Sculptor}} ()
+\item 
+void \mbox{\hyperlink{class_esculpper_ab833a2dbabd6b574b0883e077ad294e4}{set\+Color}} (float r, float g, float b, float a)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\mbox{\hyperlink{class_esculpper}{Esculpper}} eh uma classe que herda os parametros e metodos da classe principal Q\+Widget e sobrepoe os atributos dessa classe no intuito de possibilitar ao usuario desse programa desenhar figurar geometricas dentro do container 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_esculpper_a89d2a33b5b2cebd4b06a938fed3c7d3b}\label{class_esculpper_a89d2a33b5b2cebd4b06a938fed3c7d3b}} 
+\index{Esculpper@{Esculpper}!Esculpper@{Esculpper}}
+\index{Esculpper@{Esculpper}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{Esculpper()}{Esculpper()}}
+{\footnotesize\ttfamily Esculpper\+::\+Esculpper (\begin{DoxyParamCaption}\item[{Q\+Widget $\ast$}]{parent = {\ttfamily nullptr} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [explicit]}}
+
+Construtor padrao da classe esculpper 
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{class_esculpper_ae79b3da4d0b21385d56ca89b4584e802}\label{class_esculpper_ae79b3da4d0b21385d56ca89b4584e802}} 
+\index{Esculpper@{Esculpper}!cortar@{cortar}}
+\index{cortar@{cortar}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{cortar()}{cortar()}}
+{\footnotesize\ttfamily void Esculpper\+::cortar (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{z }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario as coordenadas desejadas e entao cortar a figura que esta atualmente selecionada na interface \mbox{\Hypertarget{class_esculpper_aa28642864781d77f35236e6504ab3ce0}\label{class_esculpper_aa28642864781d77f35236e6504ab3ce0}} 
+\index{Esculpper@{Esculpper}!getSculptor@{getSculptor}}
+\index{getSculptor@{getSculptor}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{getSculptor()}{getSculptor()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_sculptor}{Sculptor}} Esculpper\+::get\+Sculptor (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+metodo responsavel por retornar o objeto sculptor quando desejado \mbox{\Hypertarget{class_esculpper_a22f68de687305ed2e9917db6c6959cf4}\label{class_esculpper_a22f68de687305ed2e9917db6c6959cf4}} 
+\index{Esculpper@{Esculpper}!Inserir@{Inserir}}
+\index{Inserir@{Inserir}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{Inserir()}{Inserir()}}
+{\footnotesize\ttfamily void Esculpper\+::\+Inserir (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y,  }\item[{int}]{z }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario as coordenadas desejadas e entao inserir a figura que esta atualmente selecionada na interface \mbox{\Hypertarget{class_esculpper_abac370c50c860249867ded72f7b662db}\label{class_esculpper_abac370c50c860249867ded72f7b662db}} 
+\index{Esculpper@{Esculpper}!mouseDoubleClickEvent@{mouseDoubleClickEvent}}
+\index{mouseDoubleClickEvent@{mouseDoubleClickEvent}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{mouseDoubleClickEvent()}{mouseDoubleClickEvent()}}
+{\footnotesize\ttfamily void Esculpper\+::mouse\+Double\+Click\+Event (\begin{DoxyParamCaption}\item[{Q\+Mouse\+Event $\ast$}]{e }\end{DoxyParamCaption})}
+
+metodo responsavel pela insercao de um voxel no sculptor quando o usuario der dois cliques no mouse \mbox{\Hypertarget{class_esculpper_a8c0c963246cb180fff88fdcbf0423feb}\label{class_esculpper_a8c0c963246cb180fff88fdcbf0423feb}} 
+\index{Esculpper@{Esculpper}!mouseMoveEvent@{mouseMoveEvent}}
+\index{mouseMoveEvent@{mouseMoveEvent}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{mouseMoveEvent()}{mouseMoveEvent()}}
+{\footnotesize\ttfamily void Esculpper\+::mouse\+Move\+Event (\begin{DoxyParamCaption}\item[{Q\+Mouse\+Event $\ast$}]{e }\end{DoxyParamCaption})}
+
+metodo responsavel pelo rastreamento do mouse no widget e tambem pelo insercao de figuras no esculptor quando o mouse esta pressionado \mbox{\Hypertarget{class_esculpper_adae0aea7485c46aae427c3303db1bad4}\label{class_esculpper_adae0aea7485c46aae427c3303db1bad4}} 
+\index{Esculpper@{Esculpper}!mousePressEvent@{mousePressEvent}}
+\index{mousePressEvent@{mousePressEvent}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{mousePressEvent()}{mousePressEvent()}}
+{\footnotesize\ttfamily void Esculpper\+::mouse\+Press\+Event (\begin{DoxyParamCaption}\item[{Q\+Mouse\+Event $\ast$}]{e }\end{DoxyParamCaption})}
+
+metodo responsavel por identificar quando o botao do mouse for pressionado e inserir ou remover a forma geometrica no sculptor \mbox{\Hypertarget{class_esculpper_ad0d057e7bde9519e973d54fabe306f99}\label{class_esculpper_ad0d057e7bde9519e973d54fabe306f99}} 
+\index{Esculpper@{Esculpper}!mouseReleaseEvent@{mouseReleaseEvent}}
+\index{mouseReleaseEvent@{mouseReleaseEvent}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{mouseReleaseEvent()}{mouseReleaseEvent()}}
+{\footnotesize\ttfamily void Esculpper\+::mouse\+Release\+Event (\begin{DoxyParamCaption}\item[{Q\+Mouse\+Event $\ast$}]{e }\end{DoxyParamCaption})}
+
+metodo responsavel por identificar quando o mouse deixa de ser pressionado \mbox{\Hypertarget{class_esculpper_a857692bdb93c3fdbb4ace4d2f90d802b}\label{class_esculpper_a857692bdb93c3fdbb4ace4d2f90d802b}} 
+\index{Esculpper@{Esculpper}!paintEvent@{paintEvent}}
+\index{paintEvent@{paintEvent}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{paintEvent()}{paintEvent()}}
+{\footnotesize\ttfamily void Esculpper\+::paint\+Event (\begin{DoxyParamCaption}\item[{Q\+Paint\+Event $\ast$}]{e }\end{DoxyParamCaption})}
+
+metodo responsavel por desenhar todas as formas geometricas na tela de acordo com a utilizacao do programa pelo usuario; \mbox{\Hypertarget{class_esculpper_aa46e681d674c7b40639dc44637ed2948}\label{class_esculpper_aa46e681d674c7b40639dc44637ed2948}} 
+\index{Esculpper@{Esculpper}!posx@{posx}}
+\index{posx@{posx}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{posx}{posx}}
+{\footnotesize\ttfamily void Esculpper\+::posx (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+informa a coordenada x para a interface \mbox{\Hypertarget{class_esculpper_ac7e83d14fbe340f45f8984419b486c6b}\label{class_esculpper_ac7e83d14fbe340f45f8984419b486c6b}} 
+\index{Esculpper@{Esculpper}!posy@{posy}}
+\index{posy@{posy}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{posy}{posy}}
+{\footnotesize\ttfamily void Esculpper\+::posy (\begin{DoxyParamCaption}\item[{int}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [signal]}}
+
+informa a coordenada y para a interface \mbox{\Hypertarget{class_esculpper_a1ff4b2f6369e31634e93bd781c8312ce}\label{class_esculpper_a1ff4b2f6369e31634e93bd781c8312ce}} 
+\index{Esculpper@{Esculpper}!SalvarOFF@{SalvarOFF}}
+\index{SalvarOFF@{SalvarOFF}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{SalvarOFF()}{SalvarOFF()}}
+{\footnotesize\ttfamily void Esculpper\+::\+Salvar\+O\+FF (\begin{DoxyParamCaption}\item[{Q\+String}]{s }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario o nome do arquivo a ser criada e salvar a figura em um arquivo do tipo O\+FF \mbox{\Hypertarget{class_esculpper_a104883007089b1349d0a74537869ea79}\label{class_esculpper_a104883007089b1349d0a74537869ea79}} 
+\index{Esculpper@{Esculpper}!SalvarVECT@{SalvarVECT}}
+\index{SalvarVECT@{SalvarVECT}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{SalvarVECT()}{SalvarVECT()}}
+{\footnotesize\ttfamily void Esculpper\+::\+Salvar\+V\+E\+CT (\begin{DoxyParamCaption}\item[{Q\+String}]{s }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario o nome do arquivo a ser criada e salvar a figura em um arquivo do tipo V\+E\+CT \mbox{\Hypertarget{class_esculpper_a7eef082bf1ad9272391b5730b04e3614}\label{class_esculpper_a7eef082bf1ad9272391b5730b04e3614}} 
+\index{Esculpper@{Esculpper}!SetBlue@{SetBlue}}
+\index{SetBlue@{SetBlue}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{SetBlue()}{SetBlue()}}
+{\footnotesize\ttfamily void Esculpper\+::\+Set\+Blue (\begin{DoxyParamCaption}\item[{int}]{b }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario a intensidade desejada da cor azul \mbox{\Hypertarget{class_esculpper_aef40ff24714c542d056c772f2da6a06d}\label{class_esculpper_aef40ff24714c542d056c772f2da6a06d}} 
+\index{Esculpper@{Esculpper}!setBox@{setBox}}
+\index{setBox@{setBox}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{setBox()}{setBox()}}
+{\footnotesize\ttfamily void Esculpper\+::set\+Box (\begin{DoxyParamCaption}\item[{int}]{lx,  }\item[{int}]{ly,  }\item[{int}]{lz }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario as dimensoes da caixa \mbox{\Hypertarget{class_esculpper_ab833a2dbabd6b574b0883e077ad294e4}\label{class_esculpper_ab833a2dbabd6b574b0883e077ad294e4}} 
+\index{Esculpper@{Esculpper}!setColor@{setColor}}
+\index{setColor@{setColor}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{setColor()}{setColor()}}
+{\footnotesize\ttfamily void Esculpper\+::set\+Color (\begin{DoxyParamCaption}\item[{float}]{r,  }\item[{float}]{g,  }\item[{float}]{b,  }\item[{float}]{a }\end{DoxyParamCaption})}
+
+metodo responsavel por selecionar a cor rgb de forma sincrona; \mbox{\Hypertarget{class_esculpper_a94760e2f4d66bd1001a66cf40fcbfe34}\label{class_esculpper_a94760e2f4d66bd1001a66cf40fcbfe34}} 
+\index{Esculpper@{Esculpper}!SetGreen@{SetGreen}}
+\index{SetGreen@{SetGreen}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{SetGreen()}{SetGreen()}}
+{\footnotesize\ttfamily void Esculpper\+::\+Set\+Green (\begin{DoxyParamCaption}\item[{int}]{g }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario a intensidade desejada da cor verde \mbox{\Hypertarget{class_esculpper_a9a6e875cc60b1712b468ae500d95abd0}\label{class_esculpper_a9a6e875cc60b1712b468ae500d95abd0}} 
+\index{Esculpper@{Esculpper}!setNx@{setNx}}
+\index{setNx@{setNx}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{setNx()}{setNx()}}
+{\footnotesize\ttfamily void Esculpper\+::set\+Nx (\begin{DoxyParamCaption}\item[{int}]{nx }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario as dimensoes do escultor em x \mbox{\Hypertarget{class_esculpper_ab26afe21f9a86beca089a9ba2feda6fc}\label{class_esculpper_ab26afe21f9a86beca089a9ba2feda6fc}} 
+\index{Esculpper@{Esculpper}!setNy@{setNy}}
+\index{setNy@{setNy}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{setNy()}{setNy()}}
+{\footnotesize\ttfamily void Esculpper\+::set\+Ny (\begin{DoxyParamCaption}\item[{int}]{ny }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario as dimensoes do escultor em y \mbox{\Hypertarget{class_esculpper_a85deaa290e0a2b9e0e143c235252b1de}\label{class_esculpper_a85deaa290e0a2b9e0e143c235252b1de}} 
+\index{Esculpper@{Esculpper}!setNz@{setNz}}
+\index{setNz@{setNz}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{setNz()}{setNz()}}
+{\footnotesize\ttfamily void Esculpper\+::set\+Nz (\begin{DoxyParamCaption}\item[{int}]{nz }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario as dimensoes do escultor em z \mbox{\Hypertarget{class_esculpper_a7e83952f6516f052cb55eb271e31fa65}\label{class_esculpper_a7e83952f6516f052cb55eb271e31fa65}} 
+\index{Esculpper@{Esculpper}!setOperation@{setOperation}}
+\index{setOperation@{setOperation}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{setOperation()}{setOperation()}}
+{\footnotesize\ttfamily void Esculpper\+::set\+Operation (\begin{DoxyParamCaption}\item[{int}]{op }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario qual eh a operacao desejada \mbox{\Hypertarget{class_esculpper_a8590fa3cbbbf52cd04ca44b2b06ed0bf}\label{class_esculpper_a8590fa3cbbbf52cd04ca44b2b06ed0bf}} 
+\index{Esculpper@{Esculpper}!setPlano@{setPlano}}
+\index{setPlano@{setPlano}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{setPlano()}{setPlano()}}
+{\footnotesize\ttfamily void Esculpper\+::set\+Plano (\begin{DoxyParamCaption}\item[{int}]{plan }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario qual eh o plano escolhido para se trabalhar \mbox{\Hypertarget{class_esculpper_a5d3a9022e6a7e238d7c0d2cc4a3f7ab5}\label{class_esculpper_a5d3a9022e6a7e238d7c0d2cc4a3f7ab5}} 
+\index{Esculpper@{Esculpper}!setPlanoCoordenada@{setPlanoCoordenada}}
+\index{setPlanoCoordenada@{setPlanoCoordenada}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{setPlanoCoordenada()}{setPlanoCoordenada()}}
+{\footnotesize\ttfamily void Esculpper\+::set\+Plano\+Coordenada (\begin{DoxyParamCaption}\item[{int}]{plano\+Coordenada }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario qual eh a coordenada atual do plano corrente \mbox{\Hypertarget{class_esculpper_a7ba4d36fc926e31737011d344385492c}\label{class_esculpper_a7ba4d36fc926e31737011d344385492c}} 
+\index{Esculpper@{Esculpper}!setPutCut@{setPutCut}}
+\index{setPutCut@{setPutCut}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{setPutCut()}{setPutCut()}}
+{\footnotesize\ttfamily void Esculpper\+::set\+Put\+Cut (\begin{DoxyParamCaption}\item[{int}]{pc }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario se a operacao eh de inserir ou cortar a figura \mbox{\Hypertarget{class_esculpper_ac64b70c52eecda057ecb1ae1278ae110}\label{class_esculpper_ac64b70c52eecda057ecb1ae1278ae110}} 
+\index{Esculpper@{Esculpper}!setRaio@{setRaio}}
+\index{setRaio@{setRaio}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{setRaio()}{setRaio()}}
+{\footnotesize\ttfamily void Esculpper\+::set\+Raio (\begin{DoxyParamCaption}\item[{float}]{r }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario as dimensoes do raio da esfera \mbox{\Hypertarget{class_esculpper_a839c01344d7da0202eb8cbe81b0e8bfc}\label{class_esculpper_a839c01344d7da0202eb8cbe81b0e8bfc}} 
+\index{Esculpper@{Esculpper}!SetRed@{SetRed}}
+\index{SetRed@{SetRed}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{SetRed()}{SetRed()}}
+{\footnotesize\ttfamily void Esculpper\+::\+Set\+Red (\begin{DoxyParamCaption}\item[{int}]{r }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario a intensidade desejada da cor vermelha \mbox{\Hypertarget{class_esculpper_a2cbc4c7888ad77bfbe4977121158cd4d}\label{class_esculpper_a2cbc4c7888ad77bfbe4977121158cd4d}} 
+\index{Esculpper@{Esculpper}!setRx@{setRx}}
+\index{setRx@{setRx}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{setRx()}{setRx()}}
+{\footnotesize\ttfamily void Esculpper\+::set\+Rx (\begin{DoxyParamCaption}\item[{float}]{rx }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario as dimensoes em x do raio da elipse \mbox{\Hypertarget{class_esculpper_a1b2e3090d8ff1affd19d2b3935c645d2}\label{class_esculpper_a1b2e3090d8ff1affd19d2b3935c645d2}} 
+\index{Esculpper@{Esculpper}!setRy@{setRy}}
+\index{setRy@{setRy}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{setRy()}{setRy()}}
+{\footnotesize\ttfamily void Esculpper\+::set\+Ry (\begin{DoxyParamCaption}\item[{float}]{ry }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario as dimensoes em y do raio da elipse \mbox{\Hypertarget{class_esculpper_a19c5064c0d1f5b22b3650fba22b9ed3a}\label{class_esculpper_a19c5064c0d1f5b22b3650fba22b9ed3a}} 
+\index{Esculpper@{Esculpper}!setRz@{setRz}}
+\index{setRz@{setRz}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{setRz()}{setRz()}}
+{\footnotesize\ttfamily void Esculpper\+::set\+Rz (\begin{DoxyParamCaption}\item[{float}]{rz }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario as dimensoes em z do raio da elipse \mbox{\Hypertarget{class_esculpper_a60d29da81456257d8956aa8a49cb65a7}\label{class_esculpper_a60d29da81456257d8956aa8a49cb65a7}} 
+\index{Esculpper@{Esculpper}!setSculptor@{setSculptor}}
+\index{setSculptor@{setSculptor}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{setSculptor()}{setSculptor()}}
+{\footnotesize\ttfamily void Esculpper\+::set\+Sculptor (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_sculptor}{Sculptor}} \&}]{s }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario um objeto escultor novo \mbox{\Hypertarget{class_esculpper_a61f1f97e68ffae1aa19b61c18231dce4}\label{class_esculpper_a61f1f97e68ffae1aa19b61c18231dce4}} 
+\index{Esculpper@{Esculpper}!SetTransparencia@{SetTransparencia}}
+\index{SetTransparencia@{SetTransparencia}!Esculpper@{Esculpper}}
+\subsubsection{\texorpdfstring{SetTransparencia()}{SetTransparencia()}}
+{\footnotesize\ttfamily void Esculpper\+::\+Set\+Transparencia (\begin{DoxyParamCaption}\item[{int}]{t }\end{DoxyParamCaption})}
+
+metodo responsavel por receber do usuario o grau de transparencia desejado 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+esculpper.\+h\item 
+esculpper.\+cpp\end{DoxyCompactItemize}

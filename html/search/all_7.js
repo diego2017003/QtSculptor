@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['salvaroff',['SalvarOFF',['../class_esculpper.html#a1ff4b2f6369e31634e93bd781c8312ce',1,'Esculpper']]],
+  ['salvarvect',['SalvarVECT',['../class_esculpper.html#a104883007089b1349d0a74537869ea79',1,'Esculpper']]],
+  ['sculptor',['Sculptor',['../class_sculptor.html',1,'Sculptor'],['../class_sculptor.html#a664e9e3455d6e4c29c69477e998597d6',1,'Sculptor::Sculptor()']]],
+  ['setblue',['SetBlue',['../class_esculpper.html#a7eef082bf1ad9272391b5730b04e3614',1,'Esculpper']]],
+  ['setbox',['setBox',['../class_esculpper.html#aef40ff24714c542d056c772f2da6a06d',1,'Esculpper']]],
+  ['setcolor',['setColor',['../class_esculpper.html#ab833a2dbabd6b574b0883e077ad294e4',1,'Esculpper::setColor()'],['../class_sculptor.html#af1d69da01379874b0dfd6454787cb562',1,'Sculptor::setColor()']]],
+  ['setgreen',['SetGreen',['../class_esculpper.html#a94760e2f4d66bd1001a66cf40fcbfe34',1,'Esculpper']]],
+  ['setnx',['setNx',['../class_esculpper.html#a9a6e875cc60b1712b468ae500d95abd0',1,'Esculpper']]],
+  ['setny',['setNy',['../class_esculpper.html#ab26afe21f9a86beca089a9ba2feda6fc',1,'Esculpper']]],
+  ['setnz',['setNz',['../class_esculpper.html#a85deaa290e0a2b9e0e143c235252b1de',1,'Esculpper']]],
+  ['setoperation',['setOperation',['../class_esculpper.html#a7e83952f6516f052cb55eb271e31fa65',1,'Esculpper']]],
+  ['setplano',['setPlano',['../class_esculpper.html#a8590fa3cbbbf52cd04ca44b2b06ed0bf',1,'Esculpper']]],
+  ['setplanocoordenada',['setPlanoCoordenada',['../class_esculpper.html#a5d3a9022e6a7e238d7c0d2cc4a3f7ab5',1,'Esculpper']]],
+  ['setputcut',['setPutCut',['../class_esculpper.html#a7ba4d36fc926e31737011d344385492c',1,'Esculpper']]],
+  ['setraio',['setRaio',['../class_esculpper.html#ac64b70c52eecda057ecb1ae1278ae110',1,'Esculpper']]],
+  ['setred',['SetRed',['../class_esculpper.html#a839c01344d7da0202eb8cbe81b0e8bfc',1,'Esculpper']]],
+  ['setrx',['setRx',['../class_esculpper.html#a2cbc4c7888ad77bfbe4977121158cd4d',1,'Esculpper']]],
+  ['setry',['setRy',['../class_esculpper.html#a1b2e3090d8ff1affd19d2b3935c645d2',1,'Esculpper']]],
+  ['setrz',['setRz',['../class_esculpper.html#a19c5064c0d1f5b22b3650fba22b9ed3a',1,'Esculpper']]],
+  ['setsculptor',['setSculptor',['../class_esculpper.html#a60d29da81456257d8956aa8a49cb65a7',1,'Esculpper']]],
+  ['settransparencia',['SetTransparencia',['../class_esculpper.html#a61f1f97e68ffae1aa19b61c18231dce4',1,'Esculpper']]]
+];
