@@ -2,6 +2,7 @@
 #include "ui_mainwindow.h"
 #include <cstdlib>
 #include "sculptor.h"
+#include <QProcess>
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -59,7 +60,6 @@ void MainWindow::on_BtnSculpCreate_clicked()
     ui->widgetSculpper->repaint();
     ui->BtnSculpCreate->setDisabled(true);
     ui->BtnOpVoxel->setDisabled(true);
-    ui->BtnSetClor->setDisabled(false);
     ui->BtnOpBox->setDisabled(false);
     ui->BtnOpSphere->setDisabled(false);
     ui->BtnOpElipsoide->setDisabled(false);
