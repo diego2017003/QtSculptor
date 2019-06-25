@@ -22,5 +22,16 @@
   parametros do computador do usuário;
   
   *O programa tem tamanho fixo em tela.
- ## Como Usar
- ![interface](interface.PNG)
+ ## Funcionamento
+ ![interfaceInicial](interface.PNG)
+    Ao executar o programa ele terá as caracteristica da imagem acima. No inicio da execução todos os botões, com excessão do criar
+  Escultor e dos botões de salvar, começam desabilitados, além dos botões os slider verticais, 'checkboxes' e radiu buttons também 
+  começam desabilitados para usuário.
+    Nesse momento o usuário deve informar no espaço de titulo "tamanho" quais serão as dimensões do escultor que ele deseja criar.
+   Lembrando que os dados passados no espaço de texto devem ser dados numéricos e que se nenhum parametro for repassado ao clicar 
+   no botão "criar Escultor" todas as dimensões terão como tamanho padrão o número 20.Vale ressaltar que pelo tamanho do programa 
+   ser fixo, selecionando acima de 35 unidades para as dimensões o widget que desenha as células pode ganhar caracteristicas 
+   peculiares por causa das equações por trás da criação das células de desenho no widget.
+    Só é possível criar um escultor durante o tempo de  execução do programa pois ao clicar para criar o escultor o botão fica 
+   desabilitado á medida que todas as outras funcionalidades do programa são habilitadas para o usuário utilizar. 
+   
