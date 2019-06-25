@@ -1132,6 +1132,9 @@
       </property>
      </widget>
      <widget class="QCheckBox" name="CbManual">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
       <property name="geometry">
        <rect>
         <x>10</x>

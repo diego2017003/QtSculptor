@@ -376,6 +376,12 @@ void MainWindow::on_SliTransparencia_valueChanged(int value)
 void MainWindow::on_BtnSaveOFF_clicked()
 {
     ui->widgetSculpper->SalvarOFF(ui->TxtSave->text());
+//    QString programa = "C:/Program Files/VCG/MeshLab/meshlab.exe";
+//    QStringList file;
+//    file<<"--project";
+//    file << "C:/Users/Cliente/Desktop/"+ui->TxtSave->text()+".off";
+//    QProcess process;
+//    process.start(programa,file);
 }
 
 void MainWindow::on_BtnSaveVECT_clicked()
