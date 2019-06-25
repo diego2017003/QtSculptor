@@ -52,4 +52,4 @@ campos para informar as dimesões da caixa devem estar preenchidos antes de clic
       Ao clicar no CheckBox "Coordenada" em baixo do título "Edição" o programa permite que o usuário digite as coordenadas onde deseja 
  Inserir a figura atual com a qual está trabalhando.
       Ao clicar na tela de desenho o programa preenche as células que formam a figura com ellipses da cor que está selecionada atualmente nos sliders RGB. 
- ![Desenhando](InterfaceFuncionando.PNG)
+ ![Desenhando](Desenhando.PNG)
