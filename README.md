@@ -43,4 +43,13 @@
   mostrará Y como referência para o endereço vertical da célula(Cima para baixo).
         Os parametros do desenho que são regulados pelos sliders tem valor atualizado toda vez que há uma mudança nos valores desses parametros, entretanto,  as dimensões da caixa só podem ser escolhidas no momento em que a operação é selcionada já portanto os 
 campos para informar as dimesões da caixa devem estar preenchidos antes de clicar no botão da operação.
-        
+       O programa utiliza os RadiuButtons "inserir figura" e "cortar figura" para administra se a operação está recortando o desenho ou
+ Está inserindo novas figuras. Quando uma operação é selecionada o botão fica desabilitado para deixar intuitiva a noção de qual é o 
+ tipo de figura atual com a qual se está trabalhando.
+      No canto superior Direito Há sliders com título "Plano", esses sliders permitem ao usuário passear nas coordenadas que não estão
+ sendo exibidas na telas, por exemplo: se o plano atual é o XY o slider do plano Z estará habilitado para o usuário poder caminhar nas 
+ Coordenadas de Z enquanto o plano XY está em evidência no quadro de desenho.
+      Ao clicar no CheckBox "Coordenada" em baixo do título "Edição" o programa permite que o usuário digite as coordenadas onde deseja 
+ Inserir a figura atual com a qual está trabalhando.
+      Ao clicar na tela de desenho o programa preenche as células que formam a figura com ellipses da cor que está selecionada atualmente nos sliders RGB. 
+ ![Desenhando](InterfaceFuncionando.PNG)
