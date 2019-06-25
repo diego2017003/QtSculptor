@@ -24,14 +24,23 @@
   *O programa tem tamanho fixo em tela.
  ## Funcionamento
  ![interfaceInicial](interface.PNG)
-    Ao executar o programa ele terá as caracteristica da imagem acima. No inicio da execução todos os botões, com excessão do criar
+       Ao executar o programa ele terá as caracteristica da imagem acima. No inicio da execução todos os botões, com excessão do criar
   Escultor e dos botões de salvar, começam desabilitados, além dos botões os slider verticais, 'checkboxes' e radiu buttons também 
   começam desabilitados para usuário.
-    Nesse momento o usuário deve informar no espaço de titulo "tamanho" quais serão as dimensões do escultor que ele deseja criar.
+        Nesse momento o usuário deve informar no espaço de titulo "tamanho" quais serão as dimensões do escultor que ele deseja criar.
    Lembrando que os dados passados no espaço de texto devem ser dados numéricos e que se nenhum parametro for repassado ao clicar 
    no botão "criar Escultor" todas as dimensões terão como tamanho padrão o número 20.Vale ressaltar que pelo tamanho do programa 
    ser fixo, selecionando acima de 35 unidades para as dimensões o widget que desenha as células pode ganhar caracteristicas 
    peculiares por causa das equações por trás da criação das células de desenho no widget.
-    Só é possível criar um escultor durante o tempo de  execução do programa pois ao clicar para criar o escultor o botão fica 
+       Só é possível criar um escultor durante o tempo de  execução do programa pois ao clicar para criar o escultor o botão fica 
    desabilitado á medida que todas as outras funcionalidades do programa são habilitadas para o usuário utilizar. 
    
+ ![interfaceFuncional](InterfaceFuncionando.PNG)
+        Após criado o escultor o programa seleciona como padrão a operação de colocar voxels na estrutura do desenho, seleciona também o
+  Plano XY como padrão inicial e desmarca a opção de inserir a figura por coordenada.
+        Os displays da posição atual informão qual é a coordenada da célula onde o mouse está posicionado de acordo com o plano que está
+  Selecionado. Esse espaço sempre mostrará posição X como referência para o endereço horizontal da célula,(Esquerda para Direita), e
+  mostrará Y como referência para o endereço vertical da célula(Cima para baixo).
+        Os parametros do desenho que são regulados pelos sliders tem valor atualizado toda vez que há uma mudança nos valores desses parametros, entretanto,  as dimensões da caixa só podem ser escolhidas no momento em que a operação é selcionada já portanto os 
+campos para informar as dimesões da caixa devem estar preenchidos antes de clicar no botão da operação.
+        
